@@ -23,6 +23,29 @@ h1, h2, h3, h4, h5, h6 {
     color: #61dafb;
 }
 
+pre {
+    font-size: 100.0%;
+}
+
+snippet-highlight .dark .code-toolbar .toolbar a:hover {
+    color: #61dafb;
+}
+
+snippet-highlight .dark .code-toolbar pre {
+    border-top: 0px ;
+}
+
+snippet-highlight .dark .code-toolbar .toolbar a, snippet-highlight .dark .code-toolbar .toolbar span {
+    background: #20232a;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+snippet-highlight .dark :not(pre) > code[class*="language-"], snippet-highlight .dark pre[class*="language-"] {
+    background: rgb(40, 44, 52);
+}
+
+
+
 .navbar-dark .navbar-nav .nav-link {
     color: white;
 }
@@ -98,12 +121,12 @@ header.masthead h1 {
 }
 
 .showcase .showcase-text {
-    padding: 3rem;
+    padding: 1rem 3rem 1rem 3rem;
 }
 
 @media (min-width: 768px) {
     .showcase .showcase-text {
-        padding: 7rem;
+        padding:  1rem 3rem 1rem 3rem;
     }
 }
 
@@ -162,7 +185,6 @@ header.masthead h1 {
 .call-to-action {
     position: relative;
     background-color: #20232a;
-    background: url("./img/bg-masthead.jpg") no-repeat center center;
     background-size: cover;
     padding-top: 7rem;
     padding-bottom: 7rem;

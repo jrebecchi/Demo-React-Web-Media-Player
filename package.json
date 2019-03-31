@@ -7,8 +7,8 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "2.1.8",
-    "react-syntax-highlighter": "^10.2.1",
-    "react-web-media-player": "file:../React-WebMediaPlayer/react-web-media-player-1.0.4.tgz"
+    "react-web-media-player": "file:../React-WebMediaPlayer/react-web-media-player-1.0.4.tgz",
+    "snippet-highlight": "^1.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
