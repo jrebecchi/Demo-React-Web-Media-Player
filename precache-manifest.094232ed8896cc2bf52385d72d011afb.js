@@ -12,23 +12,23 @@ self.__precacheManifest = [
     "url": "/Demo-React-Web-Media-Player/static/js/runtime~main.427b0482.js"
   },
   {
-    "revision": "c7801d332f160466e49f",
-    "url": "/Demo-React-Web-Media-Player/static/js/main.7d21b1cd.chunk.js"
+    "revision": "d5c0365a37ba598ae120",
+    "url": "/Demo-React-Web-Media-Player/static/js/main.5e3989dd.chunk.js"
   },
   {
     "revision": "ceb3178cb4c5f069bad9",
     "url": "/Demo-React-Web-Media-Player/static/js/2.d4fe1df4.chunk.js"
   },
   {
-    "revision": "c7801d332f160466e49f",
-    "url": "/Demo-React-Web-Media-Player/static/css/main.b343c885.chunk.css"
+    "revision": "d5c0365a37ba598ae120",
+    "url": "/Demo-React-Web-Media-Player/static/css/main.a81a4108.chunk.css"
   },
   {
     "revision": "ceb3178cb4c5f069bad9",
     "url": "/Demo-React-Web-Media-Player/static/css/2.8fca536b.chunk.css"
   },
   {
-    "revision": "a9547030c9a1a4711b021a21f5d3cf4d",
+    "revision": "08af3f97b5bf3734bcfe0a895305d235",
     "url": "/Demo-React-Web-Media-Player/index.html"
   }
 ];
