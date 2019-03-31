@@ -1,14 +1,16 @@
 {
-  "main.css": "/Demo-React-Web-Media-Player/static/css/main.c985f402.chunk.css",
-  "main.js": "/Demo-React-Web-Media-Player/static/js/main.1cada117.chunk.js",
-  "main.js.map": "/Demo-React-Web-Media-Player/static/js/main.1cada117.chunk.js.map",
+  "main.css": "/Demo-React-Web-Media-Player/static/css/main.0614266c.chunk.css",
+  "main.js": "/Demo-React-Web-Media-Player/static/js/main.79dc98fe.chunk.js",
+  "main.js.map": "/Demo-React-Web-Media-Player/static/js/main.79dc98fe.chunk.js.map",
   "runtime~main.js": "/Demo-React-Web-Media-Player/static/js/runtime~main.427b0482.js",
   "runtime~main.js.map": "/Demo-React-Web-Media-Player/static/js/runtime~main.427b0482.js.map",
-  "static/js/2.65aa1cca.chunk.js": "/Demo-React-Web-Media-Player/static/js/2.65aa1cca.chunk.js",
-  "static/js/2.65aa1cca.chunk.js.map": "/Demo-React-Web-Media-Player/static/js/2.65aa1cca.chunk.js.map",
+  "static/js/2.8fa3d35f.chunk.js": "/Demo-React-Web-Media-Player/static/js/2.8fa3d35f.chunk.js",
+  "static/js/2.8fa3d35f.chunk.js.map": "/Demo-React-Web-Media-Player/static/js/2.8fa3d35f.chunk.js.map",
   "index.html": "/Demo-React-Web-Media-Player/index.html",
-  "precache-manifest.3f366ee77c03489181d0b061420f0fc8.js": "/Demo-React-Web-Media-Player/precache-manifest.3f366ee77c03489181d0b061420f0fc8.js",
+  "precache-manifest.2e0f451b99cc6165c3233d5867109e02.js": "/Demo-React-Web-Media-Player/precache-manifest.2e0f451b99cc6165c3233d5867109e02.js",
   "service-worker.js": "/Demo-React-Web-Media-Player/service-worker.js",
-  "static/css/main.c985f402.chunk.css.map": "/Demo-React-Web-Media-Player/static/css/main.c985f402.chunk.css.map",
-  "static/media/App.css": "/Demo-React-Web-Media-Player/static/media/bg-masthead.20cbd480.jpg"
+  "static/css/main.0614266c.chunk.css.map": "/Demo-React-Web-Media-Player/static/css/main.0614266c.chunk.css.map",
+  "static/media/App.css": "/Demo-React-Web-Media-Player/static/media/bg-masthead.20cbd480.jpg",
+  "static/media/logo.svg": "/Demo-React-Web-Media-Player/static/media/logo.f4e91f0c.svg",
+  "static/media/video.svg": "/Demo-React-Web-Media-Player/static/media/video.10850792.svg"
 }
