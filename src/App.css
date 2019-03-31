@@ -51,12 +51,25 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 20px;
 }
 
+.spin {
+    animation: App-logo-spin infinite 20s linear;
+}
+
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
 header.masthead {
     position: relative;
     background-color: #282c34;
     background-size: cover;
-    padding-top: 8rem;
-    padding-bottom: 8rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 
 header.masthead .overlay {
@@ -75,8 +88,8 @@ header.masthead h1 {
 
 @media (min-width: 768px) {
     header.masthead {
-        padding-top: 8rem;
-        padding-bottom: 8rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
     }
     header.masthead h1 {
         font-size: 3rem;

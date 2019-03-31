@@ -1,12 +1,17 @@
 import React, { Component } from 'react';
 import './App.css';
+import logo from "./img/logo.svg";
+import video from "./img/video.svg";
 
 class App extends Component {
   render() {
     return (
       <div classNameName="App">
         <nav class="navbar navbar-expand-lg navbar-dark">
-          <a class="logo-navbar navbar-brand ml-5" href="http://futurelink.com">React Web Media Player</a>
+          <a class="logo-navbar navbar-brand ml-5" href="http://futurelink.com">
+            <img src={logo} height="35" />
+            <span className="ml-3">React Web Media Player</span>
+          </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -26,8 +31,9 @@ class App extends Component {
           <div className="container">
             <div className="row">
               <div className="col-xl-9 mx-auto">
+                <img src={logo} className="spin mb-4" height="300" />
                 <h1 className="logo-title">React Web Media Player</h1>
-                <p className="logo-subtitle">React Web Media Player</p>
+                <p className="logo-subtitle">Your custom video, audio and slideshow player!</p>
               </div>
             </div>
           </div>
@@ -39,10 +45,11 @@ class App extends Component {
               <div className="col-lg-4">
                 <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                   <div className="features-icons-icon d-flex">
-                    <i className="icon-screen-desktop m-auto text-primary"></i>
+                    <i className="m-auto text-primary">
+                      <img src={video} className="mb-4" height="80" />
+                    </i>
                   </div>
-                  <h3>Fully Responsive</h3>
-                  <p className="lead mb-0">This theme will look great on any device, no matter the size!</p>
+                  <h3>Play videos</h3>
                 </div>
               </div>
               <div className="col-lg-4">
