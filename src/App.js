@@ -109,13 +109,13 @@ class App extends Component {
         <section className="showcase">
           <div className="container-fluid p-0">
             <div className="row no-gutters">
-              <div className="col-lg-6 order-lg-2 text-white showcase-img pt-5">
+              <div className="col-lg-6 order-lg-2 text-white pt-5">
                 <ReactWebMediaPlayer
                   title="Big Buck Bunny - 2008"
                   thumbnail="https://i.ytimg.com/vi/aqz-KE-bpKQ/maxresdefault.jpg"
                   video="https://nusid.net/video.mp4"
                   logo={{ img: "https://nusid.net/your-logo.png", src: "https://www.npmjs.com/package/react-web-media-player" }}
-                  style={{ margin: "auto" }}
+                  style={{ margin: "auto", marginTop: "70px" }}
                 />
               </div>
               <div className="col-lg-6 order-lg-1 my-auto showcase-text">
@@ -141,7 +141,7 @@ class App extends Component {
               </div>
             </div>
             <div className="row no-gutters">
-              <div className="col-lg-6 order-lg-2 text-white showcase-img pt-5">
+              <div className="col-lg-6 order-lg-2 text-white pt-5">
                 <ReactWebMediaPlayer
                   title="My Slideshow Player"
                   link="https://google.com"
@@ -170,7 +170,7 @@ class App extends Component {
                       endTime: 28.0
                     }]}
                   logo={{ img: "https://nusid.net/your-logo.png", src: "https://www.npmjs.com/package/react-web-media-player" }}
-                  style={{ margin: "auto" }}
+                  style={{ margin: "auto", marginTop: "70px" }}
                 />
               </div>
               <div className="col-lg-6 order-lg-1 my-auto showcase-text">
