@@ -4,6 +4,7 @@ import logo from "./img/logo.svg";
 import VideoPlayerCodeSnippet from './component/VideoPlayerCodeSnippet';
 import AudioPlayerCodeSnippet from './component/AudioPlayerCodeSnippet';
 import SlideshowPlayerCodeSnippet from './component/SlideshowPlayerCodeSnippet';
+import SlideshowSoundtrackPlayerCodeSnippet from './component/SlideshowSoundtrackPlayerCodeSnippet'
 import AudioVinylPlayerCodeSnippet from './component/AudioVinylPlayerCodeSnippet';
 import ReactWebMediaPlayer from 'react-web-media-player';
 //import heart from './img/heart.svg';
@@ -12,31 +13,48 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <nav className="navbar navbar-expand-lg navbar-dark">
-          <a className="logo-navbar navbar-brand ml-5" href="http://futurelink.com">
-            <img src={logo} height="35" alt=""/>
-            <span className="ml-3">React Web Media Player</span>
-          </a>
-          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-          </button>
+        <div className="black-stripe">
+          <div className="container">
+            <nav className="navbar navbar-expand-lg navbar-dark">
+              <a className="logo-navbar navbar-brand ml-auto" href="https://johannc.github.io/Demo-React-Web-Media-Player/">
+                <img src={logo} height="35" alt="" />
+                <span className="ml-3">React Web Media Player</span>
+              </a>
+              <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
+              </button>
 
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav mr-auto">
-              <li className="nav-item active">
-              </li>
-              <li className="nav-item">
-                <a className="nav-link ml-5" href="#">Docs</a>
-              </li>
-            </ul>
+              <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul className="navbar-nav mr-auto">
+                  <li className="nav-item">
+                    <a className="nav-link ml-5" href="#">Docs</a>
+                  </li>
+                </ul>
+                <ul className="navbar-nav my-2 my-lg-0">
+                  <li className="nav-item ml-5">
+                    <a className="nav-link" href="https://github.com/JohannC/React-Web-Media-Player" target="_blank">
+                      <i class="fab fa-github header-github" />
+                      <span class="ml-4-5">Gthub repository</span>
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link ml-4" href="https://www.npmjs.com/package/react-web-media-player" target="_blank">
+                      <i class="fab fa-npm header-npm" />
+                      <span class="ml-5">package</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
           </div>
-        </nav>
+        </div>
+
         <header className="masthead text-white text-center">
           <div className="overlay"></div>
           <div className="container">
             <div className="row">
               <div className="col-xl-9 mx-auto">
-                <img src={logo} className="spin mb-4" height={(window.innerWidth > 768) ? "300px" : "150px" } alt=""/>
+                <img src={logo} className="spin mb-4" height={(window.innerWidth > 768) ? "300px" : "150px"} alt="" />
                 <h1 className="logo-title">React Web Media Player</h1>
                 <p className="logo-subtitle">Your custom video, audio and slideshow player!</p>
               </div>
@@ -118,7 +136,7 @@ class App extends Component {
                   title="Big Buck Bunny - 2008"
                   thumbnail="https://i.ytimg.com/vi/aqz-KE-bpKQ/maxresdefault.jpg"
                   video="https://nusid.net/video.mp4"
-                  logo={{ img: "https://nusid.net/your-logo.png", src: "https://www.npmjs.com/package/react-web-media-player" }}
+                  logo={{ img: "https://nusid.net/your-logo.png", href: "https://www.npmjs.com/package/react-web-media-player" }}
                   style={{ margin: "auto", marginTop: "0px" }}
                 />
               </div>
@@ -134,7 +152,7 @@ class App extends Component {
                   title="Key Notez - Summer"
                   thumbnail={"https://nusid.net/album-cover.jpg"}
                   audio="https://nusid.net/audio.mp3"
-                  logo={{ img: "https://nusid.net/your-logo.png", src: "https://www.npmjs.com/package/react-web-media-player" }}
+                  logo={{ img: "https://nusid.net/your-logo.png", href: "https://www.npmjs.com/package/react-web-media-player" }}
                   style={{ margin: "auto" }}
                 />
               </div>
@@ -150,8 +168,8 @@ class App extends Component {
                   title="Key Notez - Summer"
                   thumbnail={"https://nusid.net/album-cover.jpg"}
                   audio="https://nusid.net/audio.mp3"
-                  vinyl={{ img: "https://nusid.net/album-cover.jpg", rpm: 10}}
-                  logo={{ img: "https://nusid.net/your-logo.png", src: "https://www.npmjs.com/package/react-web-media-player" }}
+                  vinyl={{ img: "https://nusid.net/album-cover.jpg", rpm: 10 }}
+                  logo={{ img: "https://nusid.net/your-logo.png", href: "https://www.npmjs.com/package/react-web-media-player" }}
                   style={{ margin: "auto" }}
                 />
               </div>
@@ -188,13 +206,51 @@ class App extends Component {
                       src: "https://nusid.net/slide7.jpg",
                       endTime: 28.0
                     }]}
-                  logo={{ img: "https://nusid.net/your-logo.png", src: "https://www.npmjs.com/package/react-web-media-player" }}
-                  style={{ margin: "auto", marginTop: "80px", marginBottom:"30px"}}
+                  logo={{ img: "https://nusid.net/your-logo.png", href: "https://www.npmjs.com/package/react-web-media-player" }}
+                  style={{ margin: "auto", marginTop: "80px", marginBottom: "30px" }}
                 />
               </div>
               <div className="col-lg-6 order-lg-1 my-auto showcase-text">
                 <h2 className="mb-4">Slideshow player</h2>
                 <SlideshowPlayerCodeSnippet />
+              </div>
+            </div>
+            <div className="row no-gutters">
+              <div className="col-lg-6 order-lg-2 text-white pt-5">
+                <ReactWebMediaPlayer
+                  title="My Slideshow Player"
+                  thumbnail="https://nusid.net/slide1.jpg"
+                  audio="https://nusid.net/audio.mp3"
+                  slideshow={
+                    [{
+                      src: "https://nusid.net/slide1.jpg",
+                      endTime: 4.0
+                    }, {
+                      src: "https://nusid.net/slide2.jpg",
+                      endTime: 8.0
+                    }, {
+                      src: "https://nusid.net/slide3.jpg",
+                      endTime: 12.0
+                    }, {
+                      src: "https://nusid.net/slide4.jpg",
+                      endTime: 16.0
+                    }, {
+                      src: "https://nusid.net/slide5.jpg",
+                      endTime: 20.0
+                    }, {
+                      src: "https://nusid.net/slide6.jpg",
+                      endTime: 24.0
+                    }, {
+                      src: "https://nusid.net/slide7.jpg",
+                      endTime: 28.0
+                    }]}
+                  logo={{ img: "https://nusid.net/your-logo.png", href: "https://www.npmjs.com/package/react-web-media-player" }}
+                  style={{ margin: "auto", marginTop: "80px", marginBottom: "30px" }}
+                />
+              </div>
+              <div className="col-lg-6 order-lg-1 my-auto showcase-text">
+                <h2 className="mb-4">Slideshow player with audio soundtrack</h2>
+                <SlideshowSoundtrackPlayerCodeSnippet />
               </div>
             </div>
           </div>
@@ -203,10 +259,10 @@ class App extends Component {
         <footer className="footer bg-dark">
           <div className="container">
             <div className="row">
-              <div className="col-lg-6 h-100 text-center text-lg-left my-auto">
+              <div className="col-lg-6 text-center text-lg-left my-auto">
                 <ul className="list-inline mb-2">
                 </ul>
-                <p className="text-muted small mb-4 mb-lg-0">React Web Media Player - MIT License</p>
+                <p className="text-muted small mb-4 mb-lg-0">React Web Media Player - MIT License - by Johann Corcuff</p>
               </div>
               <div className="col-lg-6 h-100 text-center text-lg-right my-auto">
                 <ul className="list-inline mb-0">
