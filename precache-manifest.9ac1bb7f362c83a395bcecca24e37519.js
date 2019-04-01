@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/Demo-React-Web-Media-Player/static/js/5.ec3e5e09.chunk.js"
   },
   {
-    "revision": "66ebb4e7fed21e7f2129",
+    "revision": "454089b8dfc1c5843c21",
     "url": "/Demo-React-Web-Media-Player/static/css/main.cda5d307.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/Demo-React-Web-Media-Player/static/media/logo.9fcf5af9.svg"
   },
   {
-    "revision": "b1e8af8af75d75b41681",
-    "url": "/Demo-React-Web-Media-Player/static/js/2.5de3c616.chunk.js"
+    "revision": "3651c10fde5595be3bf7",
+    "url": "/Demo-React-Web-Media-Player/static/js/2.7e25e05c.chunk.js"
   },
   {
     "revision": "817244a415d9b1238e97",
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/Demo-React-Web-Media-Player/static/js/4.51a88f0d.chunk.js"
   },
   {
-    "revision": "66ebb4e7fed21e7f2129",
-    "url": "/Demo-React-Web-Media-Player/static/js/main.1f3825e3.chunk.js"
+    "revision": "454089b8dfc1c5843c21",
+    "url": "/Demo-React-Web-Media-Player/static/js/main.7c712f3d.chunk.js"
   },
   {
     "revision": "276a77778848843f7270",
@@ -52,11 +52,11 @@ self.__precacheManifest = [
     "url": "/Demo-React-Web-Media-Player/static/js/10.61d5e7c5.chunk.js"
   },
   {
-    "revision": "b1e8af8af75d75b41681",
-    "url": "/Demo-React-Web-Media-Player/static/css/2.0a7b360d.chunk.css"
+    "revision": "3651c10fde5595be3bf7",
+    "url": "/Demo-React-Web-Media-Player/static/css/2.870fbf20.chunk.css"
   },
   {
-    "revision": "b1c050edb3707e5a7cedcf059a19247e",
+    "revision": "b3477cfae21024eae1a1325e9ada467a",
     "url": "/Demo-React-Web-Media-Player/index.html"
   }
 ];
