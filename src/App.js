@@ -34,7 +34,7 @@ class App extends Component {
                   <li className="nav-item ml-5">
                     <a className="nav-link" href="https://github.com/JohannC/React-Web-Media-Player" target="_blank">
                       <i class="fab fa-github header-github" />
-                      <span class="ml-4-5">Gthub repository</span>
+                      <span class="ml-4-5">Github repository</span>
                     </a>
                   </li>
                   <li className="nav-item">
