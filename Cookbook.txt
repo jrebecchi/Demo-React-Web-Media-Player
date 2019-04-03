@@ -1,0 +1,38 @@
+Horizontal alignment :
+<div style={{ position:"relative", width:"800px", marginLeft:"auto", marginRight:"auto"}}>
+    <ReactWebMediaPlayer
+        title="Big Buck Bunny - 2008"
+        thumbnail="https://i.ytimg.com/vi/aqz-KE-bpKQ/maxresdefault.jpg"
+        video="https://nusid.net/video.mp4"
+        logo={{ img: "https://nusid.net/your-logo.png", href: "https://www.npmjs.com/package/react-web-media-player" }}
+        buttons={[
+        { img: heart }
+        ]}
+    />
+</div>
+
+Vertical alignment :      
+<div style={{ position:"relative", height: "800px", display: "flex", alignItems: "center"}}>
+    <ReactWebMediaPlayer
+        title="Big Buck Bunny - 2008"
+        thumbnail="https://i.ytimg.com/vi/aqz-KE-bpKQ/maxresdefault.jpg"
+        video="https://nusid.net/video.mp4"
+        logo={{ img: "https://nusid.net/your-logo.png", href: "https://www.npmjs.com/package/react-web-media-player" }}
+        buttons={[
+        { img: heart }
+        ]}
+    />
+</div>
+
+Horizontal and vertical alignment :
+<div style={{ position:"relative", width:"800px", height:"800px", marginLeft:"auto", marginRight:"auto", display: "flex", alignItems: "center"}}>
+    <ReactWebMediaPlayer
+        title="Big Buck Bunny - 2008"
+        thumbnail="https://i.ytimg.com/vi/aqz-KE-bpKQ/maxresdefault.jpg"
+        video="https://nusid.net/video.mp4"
+        logo={{ img: "https://nusid.net/your-logo.png", href: "https://www.npmjs.com/package/react-web-media-player" }}
+        buttons={[
+        { img: heart }
+        ]}
+    />
+</div>
