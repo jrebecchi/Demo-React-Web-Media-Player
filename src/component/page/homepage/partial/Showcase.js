@@ -1,9 +1,9 @@
 import React from 'react';
-import VideoPlayerCodeSnippet from '../../codesnippet/VideoPlayerCodeSnippet';
-import AudioPlayerCodeSnippet from '../../codesnippet/AudioPlayerCodeSnippet';
-import SlideshowPlayerCodeSnippet from '../../codesnippet/SlideshowPlayerCodeSnippet';
-import SlideshowSoundtrackPlayerCodeSnippet from '../../codesnippet/SlideshowSoundtrackPlayerCodeSnippet'
-import AudioVinylPlayerCodeSnippet from '../../codesnippet/AudioVinylPlayerCodeSnippet';
+import VideoPlayerCodeSnippet from '../../../codesnippet/VideoPlayerCodeSnippet';
+import AudioPlayerCodeSnippet from '../../../codesnippet/AudioPlayerCodeSnippet';
+import SlideshowPlayerCodeSnippet from '../../../codesnippet/SlideshowPlayerCodeSnippet';
+import SlideshowSoundtrackPlayerCodeSnippet from '../../../codesnippet/SlideshowSoundtrackPlayerCodeSnippet'
+import AudioVinylPlayerCodeSnippet from '../../../codesnippet/AudioVinylPlayerCodeSnippet';
 import ReactWebMediaPlayer from 'react-web-media-player';
 
 const Showcase = () => {
