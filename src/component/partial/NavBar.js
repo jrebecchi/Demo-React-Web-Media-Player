@@ -9,7 +9,7 @@ const NavBar = () => {
         <div className="black-stripe">
             <div className="container">
                 <nav className="navbar navbar-expand-lg navbar-dark">
-                    <Link to={`/`}>
+                    <Link to={`/Demo-React-Web-Media-Player`}>
                         <a className="logo-navbar navbar-brand ml-auto" href="https://johannc.github.io/Demo-React-Web-Media-Player/" rel="noopener noreferrer">
                             <img src={logo} height="35" alt="" />
                             <span className="ml-3">React Web Media Player</span>
@@ -22,7 +22,7 @@ const NavBar = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav mr-auto">
                             <li className="nav-item">
-                                <Link to={`/docs`}>
+                                <Link to={`/Demo-React-Web-Media-Player/docs`}>
                                     <a className="nav-link ml-5" href="/docs" rel="noopener noreferrer">Docs</a>
                                 </Link>
                             </li>
