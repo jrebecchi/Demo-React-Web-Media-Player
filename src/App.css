@@ -157,9 +157,54 @@ header.masthead h1 {
     background-color: #f1f1f1 !important;
 }
 
+.get-started {
+    color: #cb3837;
+    background: white; 
+}
+.get-started:hover {
+    color: #cb3837;
+    background: rgb(252, 252, 252); 
+}
+
+.npm-install-text {
+    color:white;
+    font-size: 24px;
+}
+
+.npm-install-link {
+    display: flex;
+}
+
+.my-center {
+    left: auto;
+    right: auto;
+    text-align: center;
+}
+
+.npm-install-bash {
+    font-size: 18px;
+    width:50%;
+    min-width: 300px;
+    max-width: 600px;
+}
+
+.logo-npm-install {
+    font-size: 40px;
+    color:white;
+}
+
+.logo-npm-install:hover {
+    color:white;
+}
+
+
+.npm-install:hover {
+    color:white;
+}
+
 .features-icons {
-    padding-top: 7rem;
-    padding-bottom: 7rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 
 .features-icons .features-icons-item {
@@ -184,6 +229,10 @@ header.masthead h1 {
 
 .my-svg:hover {
     width: 5rem;
+}
+
+.npm-install {
+    background: #cb3837;
 }
 
 .features-icons .features-icons-item:hover .features-icons-icon i {

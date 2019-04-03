@@ -7,6 +7,7 @@ import SlideshowPlayerCodeSnippet from './component/SlideshowPlayerCodeSnippet';
 import SlideshowSoundtrackPlayerCodeSnippet from './component/SlideshowSoundtrackPlayerCodeSnippet'
 import AudioVinylPlayerCodeSnippet from './component/AudioVinylPlayerCodeSnippet';
 import ReactWebMediaPlayer from 'react-web-media-player';
+import NPMInstall from './component/NPMInstall';
 //import heart from './img/heart.svg';
 
 class App extends Component {
@@ -94,7 +95,7 @@ class App extends Component {
                   <p className="lead mb-0">You can add a soundtrack!</p>
                 </div>
               </div>
-              <div className="col-lg-4 mt-4">
+              <div className="col-lg-4 mt-3">
                 <div className="features-icons-item mx-auto mb-0 mb-lg-3">
                   <div className="features-icons-icon d-flex">
                     <i className="icon-check m-auto feature-icons-color"></i>
@@ -103,7 +104,7 @@ class App extends Component {
                   <p className="lead mb-0">With only a few lines of code, have a beautiful customized web player!</p>
                 </div>
               </div>
-              <div className="col-lg-4 mt-4">
+              <div className="col-lg-4 mt-3">
                 <div className="features-icons-item mx-auto mb-0 mb-lg-3">
                   <div className="features-icons-icon d-flex">
                     <i className="fab fa-internet-explorer m-auto feature-icons-color"></i>
@@ -115,7 +116,7 @@ class App extends Component {
                   <p className="lead mb-0">Even Internet Explorer! Yeah!</p>
                 </div>
               </div>
-              <div className="col-lg-4 mt-4">
+              <div className="col-lg-4 mt-3">
                 <div className="features-icons-item mx-auto mb-0 mb-lg-3">
                   <div className="features-icons-icon d-flex">
                     <i className="fas fa-palette m-auto feature-icons-color"></i>
@@ -124,6 +125,22 @@ class App extends Component {
                   <p className="lead mb-0">Add your logo, color, buttons and make it yours!</p>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="npm-install">
+          <div className="container center">
+            <div className="row center">
+                  <a className="nav-link ml-4 mt-3 npm-install-link" href="https://www.npmjs.com/package/react-web-media-player" target="_blank">
+                    <i class="fab fa-npm logo-npm-install" />
+                    <span class="ml-3 mr-1 npm-install-text">install:</span>                    
+                  </a>
+                  <span class="ml-5 mr-5 npm-install-bash"><NPMInstall /></span>
+
+              <a className="nav-link ml-4 mt-2" href="https://www.npmjs.com/package/react-web-media-player" target="_blank">
+                <button type="button" class="get-started btn btn-lg">Get started</button>
+              </a>
             </div>
           </div>
         </section>
