@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/Demo-React-Web-Media-Player/static/js/6.32f5b2a2.chunk.js"
   },
   {
-    "revision": "eba40f415b0c3e0a2884",
+    "revision": "2ad0d9188c68a10c3044",
     "url": "/Demo-React-Web-Media-Player/static/css/main.80f32d54.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/Demo-React-Web-Media-Player/static/media/coming-soon.3ecc8eb5.png"
   },
   {
-    "revision": "5c68b39187a1a3f73514",
-    "url": "/Demo-React-Web-Media-Player/static/js/2.f351b75e.chunk.js"
+    "revision": "b8b4f929f97ecd2bfe32",
+    "url": "/Demo-React-Web-Media-Player/static/js/2.be00e761.chunk.js"
   },
   {
     "revision": "e6a48576ad7c1a2dc3a6",
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/Demo-React-Web-Media-Player/static/js/5.f108eba3.chunk.js"
   },
   {
-    "revision": "eba40f415b0c3e0a2884",
-    "url": "/Demo-React-Web-Media-Player/static/js/main.e94c0a31.chunk.js"
+    "revision": "2ad0d9188c68a10c3044",
+    "url": "/Demo-React-Web-Media-Player/static/js/main.c42826be.chunk.js"
   },
   {
     "revision": "58bb8311a847d3d0e685",
@@ -56,11 +56,11 @@ self.__precacheManifest = [
     "url": "/Demo-React-Web-Media-Player/static/media/logo.9fcf5af9.svg"
   },
   {
-    "revision": "5c68b39187a1a3f73514",
+    "revision": "b8b4f929f97ecd2bfe32",
     "url": "/Demo-React-Web-Media-Player/static/css/2.1c51acd9.chunk.css"
   },
   {
-    "revision": "42e2e9633a19d0673af32ceb5fd3e37a",
+    "revision": "f17e3e097f80c928e8de430474b4370c",
     "url": "/Demo-React-Web-Media-Player/index.html"
   }
 ];
