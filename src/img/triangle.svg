@@ -5,7 +5,7 @@
 	xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 540 540" enable-background="0 0 841.9 595.3" xml:space="preserve">
 	<g transform="translate(0,10)">
 		<g id="Triangle">
-			<polygon display="inline" transform="translate(22,0)" fill="black" points="290,260 210,310 210,210"/>
+			<polygon display="inline" transform="translate(22,0)" fill="#282c34" points="290,260 210,310 210,210"/>
 		</g>
 	</g>
 </svg>
