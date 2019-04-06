@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/Demo-React-Web-Media-Player/static/css/2.1c51acd9.chunk.css"
   },
   {
-    "revision": "8a7f854d8080cc6e279b5025901b22f3",
+    "revision": "b88dba6f930085e817b07dda6b2869c3",
     "url": "/Demo-React-Web-Media-Player/index.html"
   }
 ];
