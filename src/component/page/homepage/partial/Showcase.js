@@ -4,11 +4,20 @@ import AudioPlayerCodeSnippet from '../../../codesnippet/AudioPlayerCodeSnippet'
 import SlideshowPlayerCodeSnippet from '../../../codesnippet/SlideshowPlayerCodeSnippet';
 import SlideshowSoundtrackPlayerCodeSnippet from '../../../codesnippet/SlideshowSoundtrackPlayerCodeSnippet'
 import AudioVinylPlayerCodeSnippet from '../../../codesnippet/AudioVinylPlayerCodeSnippet';
+import custom from '../../../../img/custom.png';
+
+
 import ReactWebMediaPlayer from 'react-web-media-player';
+import { Link } from 'react-router-dom';
 
 const Showcase = () => {
     return (
         <section className="showcase">
+            <div class="container center mt-5 showcase-header">
+                <p>
+                    You will find bellow some examples of what you can do with the React Video Player. Find the complete API doc of all the configurations and properties <span><Link to={`/Demo-React-Web-Media-Player/docs`}>here</Link></span>.
+                </p>
+            </div>
             <div className="container-fluid p-0">
                 <div className="row no-gutters">
                     <div className="col-lg-6 order-lg-2 text-white pt-5">
@@ -21,7 +30,7 @@ const Showcase = () => {
                         />
                     </div>
                     <div className="col-lg-6 order-lg-1 my-auto showcase-text">
-                        <h2 className="mb-4">Video player</h2>
+                        <h3 className="mb-4">Video player</h3>
                         <VideoPlayerCodeSnippet />
                     </div>
                 </div>
@@ -37,7 +46,7 @@ const Showcase = () => {
                         />
                     </div>
                     <div className="col-lg-6 order-lg-1 my-auto showcase-text">
-                        <h2 className="mb-4">Audio player</h2>
+                        <h3 className="mb-4">Audio player</h3>
                         <AudioPlayerCodeSnippet />
                     </div>
                 </div>
@@ -54,7 +63,7 @@ const Showcase = () => {
                         />
                     </div>
                     <div className="col-lg-6 order-lg-1 my-auto showcase-text">
-                        <h2 className="mb-4">Retro vinyl audio player</h2>
+                        <h3 className="mb-4">Retro vinyl audio player</h3>
                         <AudioVinylPlayerCodeSnippet />
                     </div>
                 </div>
@@ -91,7 +100,7 @@ const Showcase = () => {
                         />
                     </div>
                     <div className="col-lg-6 order-lg-1 my-auto showcase-text">
-                        <h2 className="mb-4">Slideshow player</h2>
+                        <h3 className="mb-4">Slideshow player</h3>
                         <SlideshowPlayerCodeSnippet />
                     </div>
                 </div>
@@ -129,8 +138,28 @@ const Showcase = () => {
                         />
                     </div>
                     <div className="col-lg-6 order-lg-1 my-auto showcase-text">
-                        <h2 className="mb-4">Slideshow player with audio soundtrack</h2>
+                        <h3 className="mb-4">Slideshow player with audio soundtrack</h3>
                         <SlideshowSoundtrackPlayerCodeSnippet />
+                    </div>
+                </div>
+                <div className="row no-gutters">
+                    <div className="col-lg-12 my-auto showcase-text">
+                        <h3 className="mt-3">Customizable elements</h3>
+                    </div>
+                </div>
+                <div className="row no-gutters">
+
+                    <div className="col-lg-6 order-lg-1  my-auto showcase-text">
+                        <img className="img-fluid mb-5 float-right" src={custom} alt="" />
+                    </div>
+                    <div className="col-lg-6 order-lg-2 my-auto">
+                        <ul style={{listStyle: "decimal", fontSize: "22px"}} class="ml-5">
+                            <li><Link to={`/Demo-React-Web-Media-Player/docs`}>Choose the menu color</Link></li>
+                            <li><Link to={`/Demo-React-Web-Media-Player/docs`}>Choose the player title</Link></li>
+                            <li><Link to={`/Demo-React-Web-Media-Player/docs`}>Choose thethumbnail</Link></li>
+                            <li><Link to={`/Demo-React-Web-Media-Player/docs`}>Add your custom buttons</Link></li>
+                            <li><Link to={`/Demo-React-Web-Media-Player/docs`}>Add your logo</Link></li>
+                        </ul>
                     </div>
                 </div>
             </div>

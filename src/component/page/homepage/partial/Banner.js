@@ -1,6 +1,5 @@
 import React from 'react';
 import logo from "../../../../img/logo.svg";
-import triangle from "../../../../img/triangle.svg";
 
 const Banner = () => {
     return (
