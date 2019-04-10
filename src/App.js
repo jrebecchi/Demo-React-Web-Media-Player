@@ -13,7 +13,7 @@ class App extends Component {
         <Router>
           <NavBar />
           <Switch>
-            <Route path="/Demo-React-Web-Media-Player/docs" component={Docs} />
+            <Route path="/docs" component={Docs} />
             <Route component={Homepage} />
           </Switch>
           <Footer />

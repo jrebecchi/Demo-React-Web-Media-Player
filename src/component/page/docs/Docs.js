@@ -55,7 +55,7 @@ class Docs extends Component {
                     <snippet-highlight theme="dark" language="jsx" content={codeUse} />
                     <p><span class="highlight">Note: </span>the links you provide for image, audio or video file can be for local or distant.</p>
                     <h2 className="mt-5">Showroom</h2>
-                    <p>You will see running examples of the React Web Media Player on the <Link to={`/Demo-React-Web-Media-Player`}>homepage</Link> of this website.</p>
+                    <p>You will see running examples of the React Web Media Player on the <Link to={`/`}>homepage</Link> of this website.</p>
                     <h2 className="mt-5">Properties</h2>
                     <p>You will find in this section the properties, sorted by alphabetical order that you can use to customize the player.</p>
                     <h3 className="mt-5">allowFullFrame</h3>

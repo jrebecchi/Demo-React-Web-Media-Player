@@ -15,7 +15,7 @@ const Showcase = () => {
         <section className="showcase">
             <div class="container center mt-5 showcase-header">
                 <p>
-                    You will find bellow some examples of what you can do with the React Video Player. Find the complete API doc of all the configurations and properties <span><Link to={`/Demo-React-Web-Media-Player/docs`}>here</Link></span>.
+                    You will find bellow some examples of what you can do with the React Video Player. Find the complete API doc of all the configurations and properties <span><Link to={`/docs`}>here</Link></span>.
                 </p>
             </div>
             <div className="container-fluid p-0">
@@ -154,11 +154,11 @@ const Showcase = () => {
                     </div>
                     <div className="col-lg-6 order-lg-2 my-auto">
                         <ul style={{listStyle: "decimal", fontSize: "22px"}} class="ml-5">
-                            <li><Link to={`/Demo-React-Web-Media-Player/docs`}>Choose the menu color</Link></li>
-                            <li><Link to={`/Demo-React-Web-Media-Player/docs`}>Choose the player title</Link></li>
-                            <li><Link to={`/Demo-React-Web-Media-Player/docs`}>Choose thethumbnail</Link></li>
-                            <li><Link to={`/Demo-React-Web-Media-Player/docs`}>Add your custom buttons</Link></li>
-                            <li><Link to={`/Demo-React-Web-Media-Player/docs`}>Add your logo</Link></li>
+                            <li><Link to={`/docs`}>Choose the menu color</Link></li>
+                            <li><Link to={`/docs`}>Choose the player title</Link></li>
+                            <li><Link to={`/docs`}>Choose thethumbnail</Link></li>
+                            <li><Link to={`/docs`}>Add your custom buttons</Link></li>
+                            <li><Link to={`/docs`}>Add your logo</Link></li>
                         </ul>
                     </div>
                 </div>
