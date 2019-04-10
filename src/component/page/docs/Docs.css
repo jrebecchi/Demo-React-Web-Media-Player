@@ -1,0 +1,14 @@
+.docs> p {
+    font-size: 17px;
+    margin-top: 30px;
+}
+.highlight {
+    font-weight: bold;
+}
+
+.property {
+    color: black;
+    padding: 2px;
+    margin: 2px;
+    background-color: rgb(247, 247, 247)
+}

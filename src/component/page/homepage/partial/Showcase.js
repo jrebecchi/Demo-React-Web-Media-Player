@@ -37,7 +37,7 @@ const Showcase = () => {
                 <div className="row no-gutters">
                     <div className="col-lg-6 order-lg-2 text-white showcase-img pt-5">
                         <ReactWebMediaPlayer
-                            width="400" height="400"
+                            width={400} height={400}
                             title="Key Notez - Summer"
                             thumbnail={"https://nusid.net/album-cover.jpg"}
                             audio="https://nusid.net/audio.mp3"
@@ -53,7 +53,7 @@ const Showcase = () => {
                 <div className="row no-gutters">
                     <div className="col-lg-6 order-lg-2 text-white showcase-img pt-5">
                         <ReactWebMediaPlayer
-                            width="400" height="400"
+                            width={400} height={400}
                             title="Key Notez - Summer"
                             thumbnail={"https://nusid.net/album-cover.jpg"}
                             audio="https://nusid.net/audio.mp3"
