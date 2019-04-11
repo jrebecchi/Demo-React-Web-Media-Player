@@ -74,25 +74,25 @@ const Showcase = () => {
                             thumbnail="https://nusid.net/slide1.jpg"
                             slideshow={
                                 [{
-                                    src: "https://nusid.net/slide1.jpg",
+                                    img: "https://nusid.net/slide1.jpg",
                                     endTime: 4.0
                                 }, {
-                                    src: "https://nusid.net/slide2.jpg",
+                                    img: "https://nusid.net/slide2.jpg",
                                     endTime: 8.0
                                 }, {
-                                    src: "https://nusid.net/slide3.jpg",
+                                    img: "https://nusid.net/slide3.jpg",
                                     endTime: 12.0
                                 }, {
-                                    src: "https://nusid.net/slide4.jpg",
+                                    img: "https://nusid.net/slide4.jpg",
                                     endTime: 16.0
                                 }, {
-                                    src: "https://nusid.net/slide5.jpg",
+                                    img: "https://nusid.net/slide5.jpg",
                                     endTime: 20.0
                                 }, {
-                                    src: "https://nusid.net/slide6.jpg",
+                                    img: "https://nusid.net/slide6.jpg",
                                     endTime: 24.0
                                 }, {
-                                    src: "https://nusid.net/slide7.jpg",
+                                    img: "https://nusid.net/slide7.jpg",
                                     endTime: 28.0
                                 }]}
                             logo={{ img: "https://nusid.net/your-logo.png", href: "https://www.npmjs.com/package/react-web-media-player" }}
@@ -112,25 +112,25 @@ const Showcase = () => {
                             audio="https://nusid.net/audio.mp3"
                             slideshow={
                                 [{
-                                    src: "https://nusid.net/slide1.jpg",
+                                    img: "https://nusid.net/slide1.jpg",
                                     endTime: 4.0
                                 }, {
-                                    src: "https://nusid.net/slide2.jpg",
+                                    img: "https://nusid.net/slide2.jpg",
                                     endTime: 8.0
                                 }, {
-                                    src: "https://nusid.net/slide3.jpg",
+                                    img: "https://nusid.net/slide3.jpg",
                                     endTime: 12.0
                                 }, {
-                                    src: "https://nusid.net/slide4.jpg",
+                                    img: "https://nusid.net/slide4.jpg",
                                     endTime: 16.0
                                 }, {
-                                    src: "https://nusid.net/slide5.jpg",
+                                    img: "https://nusid.net/slide5.jpg",
                                     endTime: 20.0
                                 }, {
-                                    src: "https://nusid.net/slide6.jpg",
+                                    img: "https://nusid.net/slide6.jpg",
                                     endTime: 24.0
                                 }, {
-                                    src: "https://nusid.net/slide7.jpg",
+                                    img: "https://nusid.net/slide7.jpg",
                                     endTime: 28.0
                                 }]}
                             logo={{ img: "https://nusid.net/your-logo.png", href: "https://www.npmjs.com/package/react-web-media-player" }}
