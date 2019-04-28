@@ -1,7 +1,8 @@
-.docs> p {
+.docs>p {
     font-size: 17px;
     margin-top: 30px;
 }
+
 .highlight {
     font-weight: bold;
 }
@@ -11,4 +12,19 @@
     padding: 2px;
     margin: 2px;
     background-color: rgb(247, 247, 247)
+}
+
+.anchor {
+    color: #61dafb;
+    padding-left: 6px;
+    padding-bottom: 2px;
+    padding-top:10px;
+}
+
+h2 > * .anchor {
+    font-size: 20px
+}
+
+h3 > * .anchor {
+    font-size: 17px
 }

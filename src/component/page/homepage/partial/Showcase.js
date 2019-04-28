@@ -9,11 +9,12 @@ import custom from '../../../../img/custom.png';
 
 import ReactWebMediaPlayer from 'react-web-media-player';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 const Showcase = () => {
     return (
         <section className="showcase">
-            <div class="container center mt-5 showcase-header">
+            <div className="container center mt-5 showcase-header">
                 <p>
                     You will find bellow some examples of what you can do with the React Video Player. Find the complete API doc of all the configurations and properties <span><Link to={`/docs`}>here</Link></span>.
                 </p>
@@ -153,12 +154,12 @@ const Showcase = () => {
                         <img className="img-fluid mb-5 float-right" src={custom} alt="" />
                     </div>
                     <div className="col-lg-6 order-lg-2 my-auto">
-                        <ul style={{listStyle: "decimal", fontSize: "22px"}} class="ml-5">
-                            <li><Link to={`/docs`}>Choose the menu color</Link></li>
-                            <li><Link to={`/docs`}>Choose the player title</Link></li>
-                            <li><Link to={`/docs`}>Choose thethumbnail</Link></li>
-                            <li><Link to={`/docs`}>Add your custom buttons</Link></li>
-                            <li><Link to={`/docs`}>Add your logo</Link></li>
+                        <ul style={{listStyle: "decimal", fontSize: "22px"}} className="ml-5">
+                            <li><HashLink to="/docs#color">Choose the menu color</HashLink></li>
+                            <li><HashLink to="/docs#title">Choose the player title</HashLink></li>
+                            <li><HashLink to="/docs#thumbnail">Choose the thumbnail</HashLink></li>
+                            <li><HashLink to="/docs#buttons">Add your custom buttons</HashLink></li>
+                            <li><HashLink to="/docs#logo">Add your logo</HashLink></li>
                         </ul>
                     </div>
                 </div>

@@ -3,7 +3,9 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { defineCustomElements } from 'snippet-highlight/dist/loader';
+import smoothScrollPolyfill from 'smoothscroll-polyfill';
 defineCustomElements(window);
+smoothScrollPolyfill.polyfill();
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

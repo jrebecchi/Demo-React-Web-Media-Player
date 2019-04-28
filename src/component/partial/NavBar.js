@@ -9,7 +9,7 @@ const NavBar = () => {
         <div className="black-stripe">
             <div className="container">
                 <nav className="navbar navbar-expand-lg navbar-dark">
-                    <Link to={`/`} class="logo-navbar navbar-brand ml-auto">
+                    <Link to={`/`} className="logo-navbar navbar-brand ml-auto">
                         <img src={logo} height="35" alt="" />
                         <span className="ml-3">React Web Media Player</span>
                     </Link>
@@ -20,7 +20,7 @@ const NavBar = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav mr-auto">
                             <li className="nav-item">
-                                <Link to={`/docs`} class="nav-link ml-5">
+                                <Link to={`/docs`} className="nav-link ml-5">
                                     Docs
                                 </Link>
                             </li>
