@@ -23,6 +23,7 @@ const Showcase = () => {
                 <div className="row no-gutters">
                     <div className="col-lg-6 order-lg-2 text-white pt-5">
                         <ReactWebMediaPlayer
+                            id="1"
                             title="Big Buck Bunny - 2008"
                             thumbnail="https://i.ytimg.com/vi/aqz-KE-bpKQ/maxresdefault.jpg"
                             video="https://nusid.net/video.mp4"
@@ -38,6 +39,7 @@ const Showcase = () => {
                 <div className="row no-gutters">
                     <div className="col-lg-6 order-lg-2 text-white showcase-img pt-5">
                         <ReactWebMediaPlayer
+                            id="2"
                             width={400} height={400}
                             title="Key Notez - Summer"
                             thumbnail={"https://nusid.net/album-cover.jpg"}
