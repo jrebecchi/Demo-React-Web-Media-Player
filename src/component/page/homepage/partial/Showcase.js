@@ -27,7 +27,6 @@ const Showcase = () => {
                             title="Big Buck Bunny - 2008"
                             thumbnail="https://i.ytimg.com/vi/aqz-KE-bpKQ/maxresdefault.jpg"
                             video="https://nusid.net/video.mp4"
-                            logo={{ img: "https://nusid.net/your-logo.png", href: "https://www.npmjs.com/package/react-web-media-player" }}
                             style={{ margin: "auto", marginTop: "0px" }}
                         />
                     </div>
@@ -44,7 +43,6 @@ const Showcase = () => {
                             title="Key Notez - Summer"
                             thumbnail={"https://nusid.net/album-cover.jpg"}
                             audio="https://nusid.net/audio.mp3"
-                            logo={{ img: "https://nusid.net/your-logo.png", href: "https://www.npmjs.com/package/react-web-media-player" }}
                             style={{ margin: "auto" }}
                         />
                     </div>
@@ -61,7 +59,6 @@ const Showcase = () => {
                             thumbnail={"https://nusid.net/album-cover.jpg"}
                             audio="https://nusid.net/audio.mp3"
                             vinyl={{ img: "https://nusid.net/album-cover.jpg", rpm: 10 }}
-                            logo={{ img: "https://nusid.net/your-logo.png", href: "https://www.npmjs.com/package/react-web-media-player" }}
                             style={{ margin: "auto" }}
                         />
                     </div>
@@ -98,7 +95,6 @@ const Showcase = () => {
                                     img: "https://nusid.net/slide7.jpg",
                                     endTime: 28.0
                                 }]}
-                            logo={{ img: "https://nusid.net/your-logo.png", href: "https://www.npmjs.com/package/react-web-media-player" }}
                             style={{ margin: "auto", marginTop: "80px", marginBottom: "30px" }}
                         />
                     </div>
@@ -110,7 +106,7 @@ const Showcase = () => {
                 <div className="row no-gutters">
                     <div className="col-lg-6 order-lg-2 text-white pt-5">
                         <ReactWebMediaPlayer
-                            title="My Slideshow Player"
+                            title="My Audio & Slideshow Player"
                             thumbnail="https://nusid.net/slide1.jpg"
                             audio="https://nusid.net/audio.mp3"
                             slideshow={
@@ -136,7 +132,6 @@ const Showcase = () => {
                                     img: "https://nusid.net/slide7.jpg",
                                     endTime: 28.0
                                 }]}
-                            logo={{ img: "https://nusid.net/your-logo.png", href: "https://www.npmjs.com/package/react-web-media-player" }}
                             style={{ margin: "auto", marginTop: "80px", marginBottom: "30px" }}
                         />
                     </div>
