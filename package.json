@@ -10,7 +10,7 @@
     "react-router-dom": "^5.1.2",
     "react-router-hash-link": "^1.2.2",
     "react-scripts": "^3.4.0",
-    "react-web-media-player": "file:../React-Web-Media-Player/react-web-media-player-1.1.4.tgz",
+    "react-web-media-player": "^1.1.5",
     "smoothscroll-polyfill": "^0.4.4",
     "snippet-highlight": "^1.0.2"
   },
