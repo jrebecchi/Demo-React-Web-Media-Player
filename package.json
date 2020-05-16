@@ -1,6 +1,6 @@
 {
   "name": "demo-react-web-media-player",
-  "homepage": "https://JohannC.github.io/Demo-React-Web-Media-Player",
+  "homepage": ".",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
@@ -21,7 +21,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "heroku-postbuild": "npm run build"
   },
   "eslintConfig": {
     "extends": "react-app"
